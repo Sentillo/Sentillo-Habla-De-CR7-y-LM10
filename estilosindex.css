@@ -1,0 +1,51 @@
+body{
+    background-color: burlywood;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Merienda', cursive;
+    background: linear-gradient(black, red);
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-backface-visibility: text;
+    animation: text 5s linear infinite;
+}
+
+@keyframes text {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.imgizq{
+    margin-right: 200px;
+    height:300px;
+    width: 300px;
+}
+.imgder{
+    height:300px;
+    width: 300px;
+}
+.titulinho{
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: burlywood;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}

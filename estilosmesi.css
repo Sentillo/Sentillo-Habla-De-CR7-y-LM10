@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(white, lightblue, rgb(206, 37, 37), rgb(9, 9, 110));
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    background: #000;
+    background: radial-gradient(red, blue);
+    font-family: system-ui;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.ronaldo{
+    text-align: center;
+}
+.titulo{
+    font-size: 30px;
+    
+}
+
+.messi{
+    text-align: center;
+}
+
+.bicho1{
+    height:400px;
+    width: 300px;
+}
+
+.bicho2{
+    height:400px;
+    width: 300px;
+}
+
+.bicho3{
+    height:400px;
+    width: 300px;
+}
